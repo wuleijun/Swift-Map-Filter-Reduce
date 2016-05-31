@@ -1,3 +1,5 @@
+此文初始发布在[我的简书](http://www.jianshu.com/users/aab9fb1728aa/latest_articles)。
+
 Swift是支持一门函数式编程的语言，拥有`Map`，`FlatMap`,`Filter`,`Reduce`针对集合类型的操作。在使用Objective-C开发时，如果你没接触过函数式编程，那你可能没听说过这些名词，希望此篇文章可以帮助你了解Swift中的`Map`，`FlatMap`,`Filter`,`Reduce`。
 #Map
 首先我们来看一下`map`在`Swift`中的的定义，我们看到它可以用在 [Optionals](http://swiftdoc.org/v2.0/type/Optional/) 和 [SequenceType](http://swiftdoc.org/v2.0/protocol/SequenceType/) 上（如：数组、词典等）。
@@ -220,3 +222,4 @@ reduceResult = combine(combine(combine(initialResult, element: 1), element: 3), 
 print(reduceResult)
 //9
 ```
+以上所用的一些示例代码可以在我的[Github](https://github.com/wuleijun/Swift-Map-Filter-Reduce)中找到，如果您有什么建议可以在评论区留言。
